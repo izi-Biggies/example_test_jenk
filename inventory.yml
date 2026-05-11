@@ -2,16 +2,19 @@ all:
   children:
     prod:
       children:
-        web:
+        test1:
           hosts:
             web01: 23.123.123.123
             web02: 223.123.123.123
-        db:
+        test2:
           hosts:
             db01: 121.123.123.123
             db02: 3.123.123.123
-
-    stage:
-      hosts:
-        stage01: 123.223.123.123
-        stage02: 123.3.123.123
+         test3:
+          hosts:
+            db01: 121.123.123.123
+            db02: 3.123.123.123
+         test4:
+          hosts:
+            db01: 121.123.123.123
+            db02: 3.123.123.123
