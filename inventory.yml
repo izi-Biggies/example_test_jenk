@@ -18,3 +18,11 @@ all:
           hosts:
             db23: 12.123.123.12
             db2333: 1.123.123.12
+    test:
+      children:
+        cal:
+          hosts:
+            web123123: 381.23.43.12
+        gul:
+          hosts:
+            web13123: 3.23.43.12
